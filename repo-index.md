@@ -1,114 +1,75 @@
 # Repository Index
 
-**Owner:** Revenue Operations  
-**Version:** 1.0  
-**Last Updated:** 2026-06-11  
-**Status:** Active  
-
----
+**Owner:** Revenue Operations
+**Version:** 1.0
+**Last Updated:** 2026-06-11
+**Status:** Active
 
 ## Purpose
 
 This index shows where each go-to-market asset lives and how to use the repository without searching through every folder.
 
-Use this file when you need to find the right sales process, GTM framework, enablement template, partner resource, competitive intelligence asset, or client customization guide.
-
----
-
 ## Core Navigation
 
-| Section | Purpose |
-|---|---|
-| `00-start-here/` | Orientation, routing, and quick-start guidance |
-| `01-gtm-strategy/` | ICP, personas, positioning, offers, pricing, and messaging |
-| `02-sales-playbooks/` | Sales stages, discovery, qualification, objections, closing, and expansion |
-| `03-sales-enablement/` | Proposals, decks, one-pagers, sequences, and checklists |
-| `04-business-development/` | Partnerships, alliances, referral motions, and co-marketing |
-| `05-collateral/` | Case study, battlecard, ROI, webinar, and executive brief templates |
-| `06-market-research/` | Market maps, TAM/SAM/SOM, customer interviews, and insight briefs |
-| `07-competitive-intelligence/` | Competitor profiles, battlecards, pricing comparison, and win/loss reviews |
-| `08-partner-programs/` | Partner program architecture, tiers, onboarding, enablement, and incentives |
-| `09-case-studies/` | Proof assets organized by SMB SaaS, mid-market SaaS, and MSP |
-| `10-proposals-and-sows/` | Proposals, SOWs, pricing pages, MAPs, and contracting notes |
-| `11-client-template-kit/` | Client-safe customization pack for delivery engagements |
-| `12-governance/` | Contribution rules, owners, review cadence, versioning, and archive policy |
+- `00-start-here/`: orientation, routing, and quick-start guidance.
+- `01-gtm/`: ICP, positioning, messaging, offers, pricing, and personas.
+- `02-sales-playbooks/`: sales stages, discovery, objections, closing, and expansion.
+- `03-enablement/`: proposals, decks, sequences, and qualification checklists.
+- `04-business-development/`: partnerships, alliances, referrals, and co-marketing.
+- `05-collateral/`: case study, battlecard, ROI, webinar, and executive brief templates.
+- `06-market-research/`: market maps, TAM/SAM/SOM, customer interviews, and insight briefs.
+- `07-competitive-intelligence/`: competitor profiles, battlecards, pricing comparison, and win/loss reviews.
+- `08-partner-programs/`: partner program architecture, tiers, onboarding, enablement, and incentives.
+- `09-case-studies/`: proof assets organized by segment.
+- `10-proposals-and-sows/`: proposals, SOWs, pricing pages, MAPs, and contracting notes.
+- `11-client-template-kit/`: client-safe customization pack.
+- `12-governance/`: contribution rules, owners, review cadence, versioning, and archive policy.
 
----
-
-## Fast Paths by Use Case
+## Fast Paths
 
 ### Build a GTM Foundation
 
-Start with:
-
 1. `00-start-here/how-to-use-this-repo.md`
-2. `01-gtm-strategy/icp-and-segmentation.md`
-3. `01-gtm-strategy/positioning-and-messaging.md`
-4. `02-sales-playbooks/sales-process.md`
-5. `02-sales-playbooks/discovery-framework.md`
+2. `00-start-here/segment-routing-guide.md`
+3. `01-gtm/icp-and-segmentation.md`
+4. `01-gtm/positioning-and-messaging.md`
+5. `02-sales-playbooks/sales-process.md`
+6. `02-sales-playbooks/discovery-framework.md`
+7. `03-enablement/proposal-structure.md`
+8. `12-governance/contribution-guide.md`
 
 ### Prepare for a Sales Call
 
-Use:
-
 1. `02-sales-playbooks/discovery-framework.md`
 2. `02-sales-playbooks/sales-process.md`
-3. `03-sales-enablement/qualification-checklists/`
-4. `07-competitive-intelligence/`
+3. `02-sales-playbooks/objection-handling.md`
+4. `03-enablement/qualification-checklists/msp-checklist.md`
 
-### Create a Proposal
+### Build an MSP Outbound Motion
 
-Use:
-
-1. `03-sales-enablement/proposal-templates/proposal-structure.md`
-2. `10-proposals-and-sows/sow-template.md`
-3. `10-proposals-and-sows/mutual-action-plan-template.md`
-
-### Customize for a Client
-
-Use:
-
-1. `11-client-template-kit/client-discovery-intake.md`
-2. `11-client-template-kit/client-customization-guide.md`
-3. Relevant segment overlay
-4. Relevant enablement templates
-
----
-
-## Segment Routing
-
-| Segment | Start Here |
-|---|---|
-| SMB SaaS | `01-gtm-strategy/segment-overlays/smb-saas.md` |
-| Mid-Market SaaS | `01-gtm-strategy/segment-overlays/mid-market-saas.md` |
-| MSP | `01-gtm-strategy/segment-overlays/msp.md` |
-
----
-
-## Document Standards
-
-Every production document should include:
-
-- Owner
-- Version
-- Last updated date
-- Status
-- Review cadence
-- Audience
-- Client reuse guidance, when applicable
-
----
+1. `01-gtm/icp-and-segmentation.md`
+2. `01-gtm/positioning-and-messaging.md`
+3. `03-enablement/qualification-checklists/msp-checklist.md`
+4. `03-enablement/email-sequences/outbound-sequence-msp.md`
 
 ## Current Foundational Documents
 
-| File | Status |
-|---|---|
-| `README.md` | Active |
-| `repo-index.md` | Active |
-| `00-start-here/how-to-use-this-repo.md` | Active |
-| `01-gtm-strategy/icp-and-segmentation.md` | Active |
-| `01-gtm-strategy/positioning-and-messaging.md` | Active |
-| `02-sales-playbooks/sales-process.md` | Active |
-| `02-sales-playbooks/discovery-framework.md` | Active |
-| `03-sales-enablement/proposal-templates/proposal-structure.md` | Active |
-| `12-governance/contribution-guide.md` | Active |
+- `README.md`
+- `repo-index.md`
+- `changelog.md`
+- `00-start-here/how-to-use-this-repo.md`
+- `00-start-here/segment-routing-guide.md`
+- `01-gtm/icp-and-segmentation.md`
+- `01-gtm/positioning-and-messaging.md`
+- `02-sales-playbooks/sales-process.md`
+- `02-sales-playbooks/discovery-framework.md`
+- `03-enablement/proposal-structure.md`
+- `12-governance/contribution-guide.md`
+
+## Current Phase 2 Assets
+
+- `02-sales-playbooks/objection-handling.md`
+- `02-sales-playbooks/closing-framework.md`
+- `03-enablement/qualification-checklists/msp-checklist.md`
+- `03-enablement/email-sequences/outbound-sequence-msp.md`
+- `03-enablement/pitch-decks/pitch-deck-framework.md`
