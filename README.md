@@ -32,12 +32,12 @@ The repository has two jobs:
 
 | Role | Primary Sections |
 |---|---|
-| Founder / CEO | `01-gtm-strategy`, `10-proposals-and-sows`, `12-governance` |
-| Head of Sales | `02-sales-playbooks`, `03-sales-enablement`, `07-competitive-intelligence` |
-| Account Executive | `02-sales-playbooks`, `03-sales-enablement`, `10-proposals-and-sows` |
-| SDR / BDR | `02-sales-playbooks`, `03-sales-enablement`, `06-market-research` |
+| Founder / CEO | `01-gtm`, `10-proposals-and-sows`, `12-governance` |
+| Head of Sales | `02-sales-playbooks`, `03-enablement`, `07-competitive-intelligence` |
+| Account Executive | `02-sales-playbooks`, `03-enablement`, `10-proposals-and-sows` |
+| SDR / BDR | `02-sales-playbooks`, `03-enablement`, `06-market-research` |
 | BD Lead | `04-business-development`, `08-partner-programs`, `05-collateral` |
-| Marketing Lead | `01-gtm-strategy`, `05-collateral`, `06-market-research` |
+| Marketing Lead | `01-gtm`, `05-collateral`, `06-market-research` |
 | Client Delivery Lead | `11-client-template-kit`, `12-governance`, `10-proposals-and-sows` |
 
 ---
@@ -51,9 +51,10 @@ Use this path when the target customer has a simple buying cycle, founder-led se
 Start here:
 
 ```text
-01-gtm-strategy/segment-overlays/smb-saas.md
-02-sales-playbooks/segment-overlays/smb-saas-sales-motion.md
-03-sales-enablement/qualification-checklists/smb-saas-checklist.md
+01-gtm/icp-and-segmentation.md
+01-gtm/positioning-and-messaging.md
+02-sales-playbooks/discovery-framework.md
+03-enablement/proposal-structure.md
 ```
 
 ### Mid-Market SaaS
@@ -63,9 +64,10 @@ Use this path when the target customer has a 3 to 6 month sales cycle, multiple 
 Start here:
 
 ```text
-01-gtm-strategy/segment-overlays/mid-market-saas.md
-02-sales-playbooks/segment-overlays/mid-market-saas-sales-motion.md
-03-sales-enablement/qualification-checklists/mid-market-saas-checklist.md
+01-gtm/icp-and-segmentation.md
+01-gtm/positioning-and-messaging.md
+02-sales-playbooks/sales-process.md
+02-sales-playbooks/discovery-framework.md
 ```
 
 ### MSP / Managed Services
@@ -75,9 +77,11 @@ Use this path when the target customer sells recurring managed services, IT supp
 Start here:
 
 ```text
-01-gtm-strategy/segment-overlays/msp.md
-02-sales-playbooks/segment-overlays/msp-sales-motion.md
-03-sales-enablement/qualification-checklists/msp-checklist.md
+01-gtm/icp-and-segmentation.md
+01-gtm/positioning-and-messaging.md
+02-sales-playbooks/sales-process.md
+03-enablement/qualification-checklists/msp-checklist.md
+03-enablement/email-sequences/outbound-sequence-msp.md
 ```
 
 ---
@@ -88,7 +92,7 @@ Start here:
    Do not create duplicate copies of core GTM documents.
 
 2. **Segment overlays, not segment silos**  
-   Segment-specific nuance belongs in `segment-overlays/`.
+   Segment-specific nuance belongs in segment-specific docs and overlays.
 
 3. **Templates must be deployable**  
    Every template should be usable by a sales or BD professional with minimal editing.
@@ -107,16 +111,16 @@ Start here:
 
 1. Read `00-start-here/how-to-use-this-repo.md`
 2. Confirm the target segment in `00-start-here/segment-routing-guide.md`
-3. Define ICP using `01-gtm-strategy/icp-and-segmentation.md`
-4. Align messaging using `01-gtm-strategy/positioning-and-messaging.md`
+3. Define ICP using `01-gtm/icp-and-segmentation.md`
+4. Align messaging using `01-gtm/positioning-and-messaging.md`
 5. Configure the sales process using `02-sales-playbooks/sales-process.md`
-6. Deploy templates from `03-sales-enablement/`
+6. Deploy templates from `03-enablement/`
 7. Track major changes in `changelog.md`
 
 ### Client Engagement Setup
 
 1. Complete `11-client-template-kit/client-discovery-intake.md`
-2. Select the correct segment overlay
+2. Select the correct segment path
 3. Copy relevant files into the client workspace
 4. Replace internal examples with client-specific details
 5. Review client-ready docs against `11-client-template-kit/client-customization-guide.md`
